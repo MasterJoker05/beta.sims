@@ -1,0 +1,134 @@
+.body-ct{
+  /*background-image: linear-gradient(135deg,#022a44,#bfb43b);*/
+  /*background-image: linear-gradient(135deg,#f4f4f4,#052865);*/
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.main 
+{
+  background: #fff;
+}
+
+
+/* Track */
+::-webkit-scrollbar-track
+{
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb
+{
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover
+{
+  background: #555; 
+}
+
+/*
+.sidebar
+{
+    background-color: #dee2e6 !important;
+}*/
+
+.content-wrapper
+{
+    background-color: #f4f6f9;
+}
+
+i.fa-bars {
+    color: #052865;
+  }
+
+.sidebar{
+  background: #31353d;
+}
+.form-floating>label
+{
+  opacity: inherit !important;
+  color: #052865 !important;
+}
+
+footer
+{
+  background-color: #fff !important;
+}
+
+.btn-custom
+{
+  background: #052865;
+  color: #fff;
+}
+
+.btn-custom:hover
+{
+  color: yellow;
+}
+
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #ffffff;
+    background-color: #052865;
+    border-color: #052865 #052865 #fff;
+}
+
+.nav-link {
+  color: #052865;
+}
+
+.form-floating>label>b
+{
+  color: red;
+}
+
+.modal-header
+{
+  background: #052865 !important;
+  color: #fff;
+}
+
+.modal-content
+{
+  border-color: #052865 !important;
+}
+
+.bg-ct
+{
+  background: #052865 !important;
+}
+.bg-ct .container-fluid a
+{
+  color: #fff;
+}
+
+.dash-link
+{
+ color: #fff;
+}
+
+.dash-link:hover
+{
+ color: #f5d328b5;
+}
+
+.dark-link
+{
+ color: #052865c7;
+}
+
+.dark-link:hover
+{
+ color: #f5d328b5;
+}
+
+table thead tr th{
+ background: #052865 !important;
+ color: #f5d328;
+}

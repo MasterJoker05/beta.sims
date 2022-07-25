@@ -1,0 +1,280 @@
+.body-ct{
+  /*background-image: linear-gradient(179deg,#fffad9cc,#052865b3);*/
+  /*background-image: linear-gradient(135deg,#f4f4f4,#052865);*/
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.logo-col{
+  background: url('../../assets/images/sims_bg_login.jpg')no-repeat center top;
+  min-height: 600px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  /*margin-top: -50px;*/
+  /*background-color: #1a3354;*/
+}
+
+.pointer {cursor: pointer;}
+
+.login-col{
+  background-color: #ffffffe8;
+}
+
+.logo-col h1, .logo-col h2{
+  color: #fff;
+}
+
+.login-title hr {
+  border-bottom: 9px solid #293f83;
+  opacity: 100;
+  width: 50%;
+  margin: 0;
+}
+
+
+body
+{
+ font-size: 13px;
+ background-color: #e4e9f7 !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+#btn-back-to-top
+{
+  position: fixed;
+  bottom: 46px;
+  right: 20px;
+  display: none;
+}
+
+
+i.fa-bars {
+    font-size: 30px;
+    height: 50px;
+    min-width: 78px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.link_name, .profile_name, .card-title, .form-floating>label
+{
+  letter-spacing: 1px;
+}
+
+.btn{
+  border-radius: 0;
+}
+
+.breadcrumb-item a{
+  text-decoration: none;
+}
+
+.form-control, .form-select, .input-group-text, .list-group
+{
+  font-size: 13px;
+  border-radius: 0px;
+
+}
+
+.form-floating>label
+{
+  font-weight: 700;
+  font-size: 13px !important;
+}
+
+.profile_pic>img
+{
+  width: 80%;
+}
+
+footer.my-4
+{
+  margin-bottom: 0px !important;
+}
+
+.card_min618
+{
+  min-height: 800px;
+}
+
+.list-group b{
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.modal-content
+{
+  border: 0 !important;
+}
+.modal-content, .modal-header
+{
+  border-radius: 0px !important;
+}
+
+.modal i.fa-exclamation-triangle, .modal i.fa-check-circle
+{
+  font-size:50px !important;
+}
+
+.print_show
+{
+  display: none;
+}
+
+@media print
+{
+  .page
+  {
+    size: legal;
+    margin:.5in;
+  }
+
+  .print_hide
+  {
+    display: none;
+  } 
+
+  .print_show
+  {
+    display: inline;
+  }
+
+  body,.home-section
+  {
+    background: transparent !important;
+  }
+
+  .container-fluid
+  {
+    padding-left: 50px;
+    padding-right: 30px;
+  }
+
+  p
+  {
+    text-align: justify;
+    font-size: 13pt;
+  }
+
+}
+
+.page-banner
+{
+  background: url('../../assets/images/pio_del_pilar_banner.jpg')no-repeat center top;
+  min-height: 600px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  margin-top: -50px;
+}
+
+
+.dashboard i.fa, .dashboard i.fas, .dashboard i.fab
+{
+ font-size: 50px;
+}
+
+.dashboard small
+{
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.dash-link
+{
+ text-decoration: none;
+}
+
+.dash-link i
+{
+ font-size: 18px !important;
+}
+
+.dash-link:hover
+{
+ text-decoration: none;
+}
+
+.dark-link
+{
+ text-decoration: none;
+}
+
+.dark-link i
+{
+ font-size: 18px !important;
+}
+
+.dark-link:hover
+{
+ text-decoration: none;
+}
+
+
+.info-text-ct{
+ border:solid 1px #ddd;
+ padding:5px 5px;
+ margin-bottom:5px;
+}
+
+.info-text-ct p{
+ margin-bottom:2px;
+}
+
+.letter-spacing-ct{
+  letter-spacing: 1px;
+}
+
+th{
+  letter-spacing: 1px;
+  font-weight: 600;
+
+}
+
+.page-item:not(:first-child) .pagination-ct>li>a 
+{
+    margin-left: -1px !important;
+}
+
+.pagination-ct>li>a {
+    padding: 0.375rem 0.75rem !important;
+}
+
+.pagination-ct>li>a {
+    position: relative !important;
+    display: block !important;
+    color: #0d6efd !important;
+    text-decoration: none !important;
+    background-color: #fff !important;
+    border: 1px solid #dee2e6 !important;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;
+}
+
+.pagination-ct>li.active>.page-link {
+    z-index: 3 !important;
+    color: #fff !important;
+    background-color: #0d6efd !important;
+    border-color: #0d6efd !important;
+}
+
+.pagination-ct>li>a:hover {
+    z-index: 2 !important;
+    color: #0a58ca !important;
+    background-color: #e9ecef !important;
+    border-color: #dee2e6 !important;
+}
+

@@ -1,0 +1,13 @@
+@media print {
+  @page {
+    size: 8in 13in portrait;
+    margin: .40in .10in .10in .10in;
+  }
+
+   .pagebreak {
+      page-break-before: always;
+  }
+
+  
+}
+

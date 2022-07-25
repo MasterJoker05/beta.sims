@@ -1,0 +1,219 @@
+.print-ct,
+.print-ct p,
+.print-ct h1,
+.print-ct h2,
+.print-ct h3,
+.print-ct h4,
+.print-ct h5,
+.print-ct h6,
+.print-ct small,
+.f-arial
+{
+  font-family: Arial, Helvetica, sans-serif !important; 
+}
+.print-ct{
+  font-size: 9pt !important;
+}
+.print-ct p
+{
+  font-size: 11pt !important;
+}
+.print-ct h1
+{
+  font-size: 22pt !important;
+}
+.print-ct h2
+{
+  font-size: 20pt !important;
+}
+.print-ct h3
+{
+  font-size: 18pt !important;
+}
+.print-ct h4
+{
+  font-size: 16pt !important;
+}
+.print-ct h5
+{
+  font-size: 14pt !important;
+}
+.print-ct h6
+{
+  font-size: 12pt !important;
+}
+.print-ct small
+{
+  font-size: 11pt !important;
+}
+
+.print-ct p { font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif !important;
+  font-size: 11px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+}
+
+.print-ct .cert-penalty
+{
+  margin-left: 155px;
+}
+
+.print-ct .cert-box
+{
+  border:1px solid #000;
+  display:inline;
+  padding:10px 20px;
+  margin:10px;
+}
+
+.p-25{
+  padding: 25px 25px 25px 0 !important;
+}
+
+.print-ct .cert-item {
+    display: inline-block;
+    padding-right: 20px;
+    width: 65px;
+}
+
+/*.print-ct .cert-item2 {
+    padding-right: 20px 0;
+}*/
+.table-none{
+  border-color: transparent !important;
+}
+.print-ct .cert-penalty small
+{
+  font-size: 8pt !important;
+}
+
+.ls-2
+{
+  letter-spacing: 9px !important;
+}
+
+.text-indent
+{
+  text-indent: 50px
+}
+
+@media print{
+	@page{
+		size:8in 13in  portrait;
+	}
+
+	.print-ct,
+	.print-ct p,
+	.print-ct h1,
+	.print-ct h2,
+	.print-ct h3,
+	.print-ct h4,
+	.print-ct h5,
+	.print-ct h6,
+	.print-ct small,
+	.f-arial
+	{
+	  font-family: Arial, Helvetica, sans-serif !important; 
+	}
+	.print-ct div{
+	  font-size: 9pt !important;
+	}
+	.print-ct p
+	{
+	  font-size: 11pt !important;
+	}
+	.print-ct h1
+	{
+	  font-size: 22pt !important;
+	}
+	.print-ct h2
+	{
+	  font-size: 20pt !important;
+	}
+	.print-ct h3
+	{
+	  font-size: 18pt !important;
+	}
+	.print-ct h4
+	{
+	  font-size: 16pt !important;
+	}
+	.print-ct h5
+	{
+	  font-size: 14pt !important;
+	}
+	.print-ct h6
+	{
+	  font-size: 12pt !important;
+	}
+	.print-ct small
+	{
+	  font-size: 9pt !important;
+	}
+
+	.print-ct p { font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif !important;
+	  font-size: 11px;
+	  font-style: normal;
+	  font-variant: normal;
+	  font-weight: 400;
+	}
+
+	.print-ct .cert-penalty
+	{
+	  margin-left: 155px;
+	}
+
+	.print-ct .cert-box
+	{
+	  border:1px solid #000;
+	  display:inline;
+	  padding:10px 20px;
+	  margin:10px;
+	}
+
+	.p-25{
+	  padding: 25px 25px 25px 0 !important;
+	}
+
+	.print-ct .cert-item {
+	    display: inline-block;
+	    padding-right: 20px;
+	    width: 65px;
+	}
+
+	/*.print-ct .cert-item2 {
+	    padding-right: 20px 0;
+	}*/
+	.table-none{
+	  border-color: transparent !important;
+	}
+	.print-ct .cert-penalty small
+	{
+	  font-size: 8pt !important;
+	}
+
+	.ls-2
+	{
+	  letter-spacing: 9px !important;
+	}
+
+	.text-indent
+	{
+	  text-indent: 50px
+	}
+	
+	.page-break-clear 
+	{ 
+  	clear: both;
+	}
+
+	.page-break 
+	{
+	  page-break-after: always; /* depreciating, use break-after */
+	  break-after: page;
+	  height: 0px;
+	  display: block!important;
+	}
+
+}

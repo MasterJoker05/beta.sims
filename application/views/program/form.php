@@ -1,0 +1,55 @@
+<?php echo form_open($formUrl, 'class="form-horizontal" role="form" id="frmProgram"'); ?>
+
+	<?php //dump($formUrl); ?>
+
+	<?php if (validation_errors()): ?>
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<div class="alert alert-danger">
+			<strong><?php echo validation_errors() ?></strong>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+	<?php endif ?>
+
+	<?php //dump($program) ?>
+
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<div class="form-group mb-3">
+			<label><b>COLLEGE : </b></label>
+	  		<?php echo form_dropdown('CollegeId', $college_options, set_value('CollegeId', NULL), 'id="CollegeId" class="form-select"'); ?>
+		</div>
+		<div class="form-group mb-3">
+			<label><b>PROGRAM CODE : </b></label>
+			<input type="text-center" class="form-control " id="ProgramCode" placeholder="Program Name" name="ProgramCode" value="<?php echo set_value('ProgramCode', $program->ProgramCode) ?>">
+		</div>
+		<div class="form-group mb-3">
+			<label><b>PROGRAM DESCRIPTION : </b></label>
+			<input type="text-center" class="form-control " id="ProgramDesc" placeholder="Program Name" name="ProgramDesc" value="<?php echo set_value('ProgramDesc', $program->ProgramDesc) ?>">
+		</div>
+	</div>
+	
+	<div class="clearfix"></div>
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+		<hr>
+		<div class="form-button">
+			<?php 
+				echo form_hidden('ProgramId', '');
+				echo form_button([
+					'name' => 'btnSubmit',
+					'value' => 'submit',
+					'type' => 'button',
+					'class' => 'btn btn-primary btn-sm letter-spacing-ct',
+					'content' => '<i class="fas fa-save"></i> Save',
+				]);
+				echo form_button([
+					'name' => 'btnClose',
+					'value' => 'close',
+					'type' => 'button',
+					'class' => 'btn btn-secondary btn-sm letter-spacing-ct',
+					'data-bs-dismiss' => 'modal',
+					'content' => '<i class="fas fa-times"></i> Close',
+				]);
+			 ?>
+		</div>
+	</div>
+<?php echo form_close(); ?>

@@ -1,0 +1,22 @@
+
+SetEnv	DB_USRNAME	umakunil_v3usr
+SetEnv	DB_PASSKEY	v3ILYaxbC1@!
+SetEnv	DB_NAME		umakunil_integrated
+SetEnv	BASE_URL	http://172.100.0.99/beta.sims/
+
+# Set PHP Time Zone:
+php_value date.timezone 'Asia/Manila'
+
+<IfModule mod_rewrite.c>
+
+#Option +FollowSymlinks
+RewriteEngine On
+#RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteCond $1 !^(index\.php|assets|robots\.text)
+
+RewriteRule ^(.*)$ index.php?/$1 [QSA,L]
+
+</IfModule>
